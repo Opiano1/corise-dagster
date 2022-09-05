@@ -79,28 +79,10 @@ optional = false
 python-versions = ">=3.5"
 
 [package.extras]
-<<<<<<< HEAD
-tests_no_zope = ["cloudpickle", "pytest-mypy-plugins", "mypy (>=0.900,!=0.940)", "pytest (>=4.3.0)", "pympler", "hypothesis", "coverage[toml] (>=5.0.2)"]
-tests = ["cloudpickle", "zope.interface", "pytest-mypy-plugins", "mypy (>=0.900,!=0.940)", "pytest (>=4.3.0)", "pympler", "hypothesis", "coverage[toml] (>=5.0.2)"]
-docs = ["sphinx-notfound-page", "zope.interface", "sphinx", "furo"]
-dev = ["cloudpickle", "pre-commit", "sphinx-notfound-page", "sphinx", "furo", "zope.interface", "pytest-mypy-plugins", "mypy (>=0.900,!=0.940)", "pytest (>=4.3.0)", "pympler", "hypothesis", "coverage[toml] (>=5.0.2)"]
-
-[[package]]
-name = "babel"
-version = "2.10.3"
-description = "Internationalization utilities"
-category = "main"
-optional = false
-python-versions = ">=3.6"
-
-[package.dependencies]
-pytz = ">=2015.7"
-=======
 dev = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "mypy (>=0.900,!=0.940)", "pytest-mypy-plugins", "zope.interface", "furo", "sphinx", "sphinx-notfound-page", "pre-commit", "cloudpickle"]
 docs = ["furo", "sphinx", "zope.interface", "sphinx-notfound-page"]
 tests = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "mypy (>=0.900,!=0.940)", "pytest-mypy-plugins", "zope.interface", "cloudpickle"]
 tests_no_zope = ["coverage[toml] (>=5.0.2)", "hypothesis", "pympler", "pytest (>=4.3.0)", "mypy (>=0.900,!=0.940)", "pytest-mypy-plugins", "cloudpickle"]
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "beautifulsoup4"
@@ -157,22 +139,14 @@ css = ["tinycss2 (>=1.1.0,<1.2)"]
 
 [[package]]
 name = "boto3"
-<<<<<<< HEAD
-version = "1.24.57"
-=======
 version = "1.24.56"
->>>>>>> b1aa578 (week 1 project completed)
 description = "The AWS SDK for Python"
 category = "main"
 optional = false
 python-versions = ">= 3.7"
 
 [package.dependencies]
-<<<<<<< HEAD
-botocore = ">=1.27.57,<1.28.0"
-=======
 botocore = ">=1.27.56,<1.28.0"
->>>>>>> b1aa578 (week 1 project completed)
 jmespath = ">=0.7.1,<2.0.0"
 s3transfer = ">=0.6.0,<0.7.0"
 
@@ -181,11 +155,7 @@ crt = ["botocore[crt] (>=1.21.0,<2.0a0)"]
 
 [[package]]
 name = "botocore"
-<<<<<<< HEAD
-version = "1.27.57"
-=======
 version = "1.27.56"
->>>>>>> b1aa578 (week 1 project completed)
 description = "Low-level, data-driven core of boto 3."
 category = "main"
 optional = false
@@ -363,9 +333,6 @@ pandas = "*"
 requests = "*"
 
 [package.extras]
-<<<<<<< HEAD
-test = ["matplotlib", "dbt-postgres", "dbt-rpc", "dbt-core", "jinja2"]
-=======
 tests = ["dagster-k8s (==0.15.0)", "types-requests", "types-pyyaml", "pytest", "pylint", "paramiko", "mypy", "moto", "kubernetes", "isort", "httpretty", "docker", "black"]
 sandbox = ["supervisor"]
 kubernetes = ["dagster-k8s (==0.15.0)", "kubernetes"]
@@ -386,7 +353,6 @@ PyYAML = ">=5.1"
 questionary = "*"
 requests = "*"
 typer = {version = "*", extras = ["all"]}
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "dagster-docker"
@@ -739,10 +705,7 @@ optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
 
 [package.dependencies]
-<<<<<<< HEAD
-=======
 pyreadline = {version = "*", markers = "sys_platform == \"win32\" and python_version < \"3.8\""}
->>>>>>> b1aa578 (week 1 project completed)
 pyreadline3 = {version = "*", markers = "sys_platform == \"win32\" and python_version >= \"3.8\""}
 
 [[package]]
@@ -767,9 +730,6 @@ zipp = ">=0.5"
 [package.extras]
 testing = ["importlib-resources (>=1.3)", "pytest-mypy (>=0.9.1)", "pytest-black (>=0.3.7)", "pytest-perf (>=0.9.2)", "flufl.flake8", "pyfakefs", "packaging", "pytest-enabler (>=1.3)", "pytest-cov", "pytest-flake8", "pytest-checkdocs (>=2.4)", "pytest (>=6)"]
 perf = ["ipython"]
-<<<<<<< HEAD
-docs = ["rst.linker (>=1.9)", "jaraco.packaging (>=9)", "sphinx"]
-=======
 testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-cov", "pytest-enabler (>=1.3)", "packaging", "pyfakefs", "flufl.flake8", "pytest-perf (>=0.9.2)", "pytest-black (>=0.3.7)", "pytest-mypy (>=0.9.1)", "importlib-resources (>=1.3)"]
 
 [[package]]
@@ -786,7 +746,6 @@ zipp = {version = ">=3.1.0", markers = "python_version < \"3.10\""}
 [package.extras]
 testing = ["pytest-mypy (>=0.9.1)", "pytest-black (>=0.3.7)", "pytest-enabler (>=1.3)", "pytest-cov", "pytest-flake8", "pytest-checkdocs (>=2.4)", "pytest (>=6)"]
 docs = ["jaraco.tidelift (>=1.4)", "rst.linker (>=1.9)", "jaraco.packaging (>=9)", "sphinx"]
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "iniconfig"
@@ -845,11 +804,7 @@ python-versions = ">=3.7"
 
 [[package]]
 name = "jsonschema"
-<<<<<<< HEAD
-version = "3.1.1"
-=======
 version = "4.14.0"
->>>>>>> b1aa578 (week 1 project completed)
 description = "An implementation of JSON Schema validation for Python"
 category = "main"
 optional = false
@@ -857,14 +812,6 @@ python-versions = "*"
 
 [package.dependencies]
 attrs = ">=17.4.0"
-<<<<<<< HEAD
-importlib-metadata = "*"
-pyrsistent = ">=0.14.0"
-six = ">=1.11.0"
-
-[package.extras]
-format = ["webcolors", "strict-rfc3339", "rfc3987", "jsonpointer (>1.13)", "idna"]
-=======
 importlib-metadata = {version = "*", markers = "python_version < \"3.8\""}
 importlib-resources = {version = ">=1.4.0", markers = "python_version < \"3.9\""}
 pkgutil-resolve-name = {version = ">=1.3.10", markers = "python_version < \"3.9\""}
@@ -874,7 +821,6 @@ typing-extensions = {version = "*", markers = "python_version < \"3.8\""}
 [package.extras]
 format-nongpl = ["webcolors (>=1.11)", "uri-template", "rfc3986-validator (>0.1.0)", "rfc3339-validator", "jsonpointer (>1.13)", "isoduration", "idna", "fqdn"]
 format = ["webcolors (>=1.11)", "uri-template", "rfc3987", "rfc3339-validator", "jsonpointer (>1.13)", "isoduration", "idna", "fqdn"]
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "jupyter-client"
@@ -921,36 +867,6 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
-<<<<<<< HEAD
-name = "leather"
-version = "0.3.4"
-description = "Python charting for 80% of humans."
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.dependencies]
-six = ">=1.6.1"
-
-[[package]]
-name = "logbook"
-version = "1.5.3"
-description = "A logging replacement for Python"
-category = "main"
-optional = false
-python-versions = "*"
-
-[package.extras]
-all = ["redis", "brotli", "pytest (>4.0)", "execnet (>=1.0.9)", "cython", "pyzmq", "pytest-cov (>=2.6)", "sqlalchemy", "jinja2"]
-compression = ["brotli"]
-dev = ["pytest-cov (>=2.6)", "pytest (>4.0)", "cython"]
-execnet = ["execnet (>=1.0.9)"]
-jinja = ["jinja2"]
-redis = ["redis"]
-sqlalchemy = ["sqlalchemy"]
-test = ["pytest-cov (>=2.6)", "pytest (>4.0)"]
-zmq = ["pyzmq"]
-=======
 name = "lxml"
 version = "4.9.1"
 description = "Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API."
@@ -963,7 +879,6 @@ source = ["Cython (>=0.29.7)"]
 htmlsoup = ["beautifulsoup4"]
 html5 = ["html5lib"]
 cssselect = ["cssselect (>=0.7)"]
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "mako"
@@ -1078,21 +993,12 @@ nest-asyncio = "*"
 traitlets = ">=5.0.0"
 
 [package.extras]
-<<<<<<< HEAD
-test = ["twine (>=1.11.0)", "setuptools (>=38.6.0)", "wheel (>=0.31.0)", "pip (>=18.1)", "black", "xmltodict", "mypy", "flake8", "check-manifest", "pytest-cov (>=2.6.1)", "pytest-asyncio", "pytest (>=4.1)", "ipywidgets (<8.0.0)", "ipykernel", "ipython (<8.0.0)"]
-sphinx = ["myst-parser", "moto", "mock", "sphinx-book-theme", "Sphinx (>=1.7)"]
-
-[[package]]
-name = "nbconvert"
-version = "6.4.5"
-=======
 test = ["xmltodict", "twine (>=1.11.0)", "testpath", "setuptools (>=60.0)", "pytest-cov (>=2.6.1)", "pytest-asyncio", "pytest (>=4.1)", "pre-commit", "pip (>=18.1)", "mypy", "ipywidgets (<8.0.0)", "ipython (<8.0.0)", "ipykernel", "flake8", "check-manifest", "black"]
 sphinx = ["sphinx-book-theme", "Sphinx (>=1.7)", "myst-parser", "moto", "mock", "autodoc-traits"]
 
 [[package]]
 name = "nbconvert"
 version = "6.5.3"
->>>>>>> b1aa578 (week 1 project completed)
 description = "Converting Jupyter Notebooks"
 category = "main"
 optional = false
@@ -1118,17 +1024,10 @@ traitlets = ">=5.0"
 
 [package.extras]
 webpdf = ["pyppeteer (>=1,<1.1)"]
-<<<<<<< HEAD
-test = ["pyppeteer (>=1,<1.1)", "ipywidgets (>=7)", "ipykernel", "pytest-dependency", "pytest-cov", "pytest"]
-serve = ["tornado (>=4.0)"]
-docs = ["ipython", "nbsphinx (>=0.2.12)", "sphinx-rtd-theme", "sphinx (>=1.5.1)"]
-all = ["ipython", "nbsphinx (>=0.2.12)", "sphinx-rtd-theme", "sphinx (>=1.5.1)", "tornado (>=4.0)", "pyppeteer (>=1,<1.1)", "ipywidgets (>=7)", "ipykernel", "pytest-dependency", "pytest-cov", "pytest"]
-=======
 test = ["pyppeteer (>=1,<1.1)", "pre-commit", "ipywidgets (>=7)", "ipykernel", "pytest-dependency", "pytest-cov", "pytest"]
 serve = ["tornado (>=6.1)"]
 docs = ["ipython", "nbsphinx (>=0.2.12)", "sphinx-rtd-theme", "sphinx (>=1.5.1)"]
 all = ["ipython", "nbsphinx (>=0.2.12)", "sphinx-rtd-theme", "sphinx (>=1.5.1)", "tornado (>=6.1)", "pyppeteer (>=1,<1.1)", "pre-commit", "ipywidgets (>=7)", "ipykernel", "pytest-dependency", "pytest-cov", "pytest"]
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "nbformat"
@@ -1553,8 +1452,6 @@ cffi = {version = "*", markers = "implementation_name == \"pypy\""}
 py = {version = "*", markers = "implementation_name == \"pypy\""}
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "questionary"
 version = "1.10.0"
 description = "Python library to build pretty command line user prompts ⭐️"
@@ -1569,7 +1466,6 @@ prompt_toolkit = ">=2.0,<4.0"
 docs = ["sphinx-autodoc-typehints (>=1.11.1,<2.0.0)", "sphinx-copybutton (>=0.3.1,<0.4.0)", "sphinx-autobuild (>=2020.9.1,<2021.0.0)", "sphinx-rtd-theme (>=0.5.0,<0.6.0)", "Sphinx (>=3.3,<4.0)"]
 
 [[package]]
->>>>>>> b1aa578 (week 1 project completed)
 name = "redis"
 version = "4.3.4"
 description = "Python client for Redis database and key-value store"
@@ -1635,8 +1531,6 @@ botocore = ">=1.12.36,<2.0a.0"
 crt = ["botocore[crt] (>=1.20.29,<2.0a.0)"]
 
 [[package]]
-<<<<<<< HEAD
-=======
 name = "shellingham"
 version = "1.5.0"
 description = "Tool to Detect Surrounding Shell"
@@ -1645,7 +1539,6 @@ optional = false
 python-versions = ">=3.4"
 
 [[package]]
->>>>>>> b1aa578 (week 1 project completed)
 name = "six"
 version = "1.16.0"
 description = "Python 2 and 3 compatibility utilities"
@@ -1744,20 +1637,8 @@ optional = false
 python-versions = ">= 3.5"
 
 [package.extras]
-<<<<<<< HEAD
-test = ["pytest"]
-
-[[package]]
-name = "text-unidecode"
-version = "1.3"
-description = "The most basic Text::Unidecode port"
-category = "main"
-optional = false
-python-versions = "*"
-=======
 test = ["coverage", "pytest-isort", "pytest-flake8", "pytest-cov", "pytest"]
 doc = ["sphinx-rtd-theme", "sphinx"]
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "toml"
@@ -1818,8 +1699,6 @@ python-versions = ">=3.7"
 
 [package.extras]
 test = ["pytest", "pre-commit"]
-<<<<<<< HEAD
-=======
 
 [[package]]
 name = "typed-ast"
@@ -1848,7 +1727,6 @@ test = ["rich (>=10.11.0,<13.0.0)", "isort (>=5.0.6,<6.0.0)", "black (>=22.3.0,<
 doc = ["mdx-include (>=1.4.1,<2.0.0)", "mkdocs-material (>=8.1.4,<9.0.0)", "mkdocs (>=1.1.2,<2.0.0)"]
 dev = ["pre-commit (>=2.17.0,<3.0.0)", "flake8 (>=3.8.3,<4.0.0)", "autoflake (>=1.3.1,<2.0.0)"]
 all = ["rich (>=10.11.0,<13.0.0)", "shellingham (>=1.3.0,<2.0.0)", "colorama (>=0.4.3,<0.5.0)"]
->>>>>>> b1aa578 (week 1 project completed)
 
 [[package]]
 name = "typing-compat"
@@ -1998,28 +1876,16 @@ docs = ["jaraco.tidelift (>=1.4)", "rst.linker (>=1.9)", "jaraco.packaging (>=9)
 
 [metadata]
 lock-version = "1.1"
-<<<<<<< HEAD
-python-versions = "<3.10,>=3.8.0"
-content-hash = "ac95f7dfe44b77a2d46a27771aedfc4750c60be0e6d0c3cff87dc5cdebf4574e"
-
-[metadata.files]
-agate = []
-=======
 python-versions = "<3.10,>=3.7.0"
 content-hash = "04233535d20706d0b5cfd54fa3554b9b9f795865abff0a37388ed0070cfd3ad7"
 
 [metadata.files]
->>>>>>> b1aa578 (week 1 project completed)
 alembic = []
 aniso8601 = []
 anyio = []
 async-timeout = []
 atomicwrites = []
 attrs = []
-<<<<<<< HEAD
-babel = []
-=======
->>>>>>> b1aa578 (week 1 project completed)
 beautifulsoup4 = []
 black = []
 bleach = []
@@ -2028,11 +1894,6 @@ botocore = []
 certifi = []
 cffi = []
 charset-normalizer = []
-<<<<<<< HEAD
-click = []
-colorama = []
-coloredlogs = []
-=======
 click = [
     {file = "click-8.1.3-py3-none-any.whl", hash = "sha256:bb4d8133cb15a609f44e8213d9b391b0809795062913b383c62be0ee95b1db48"},
     {file = "click-8.1.3.tar.gz", hash = "sha256:7682dc8afb30297001674575ea00d1814d808d6a36af415a82bd481d37ba7b8e"},
@@ -2040,27 +1901,15 @@ click = [
 colorama = []
 coloredlogs = []
 commonmark = []
->>>>>>> b1aa578 (week 1 project completed)
 coverage = []
 croniter = []
 dagit = []
 dagster = []
-<<<<<<< HEAD
-dagster-dbt = []
-dagster-docker = []
-dagster-graphql = []
-dagster-pandas = []
-dagster-postgres = []
-dbt-core = []
-dbt-extractor = []
-dbt-postgres = []
-=======
 dagster-cloud = []
 dagster-cloud-cli = []
 dagster-docker = []
 dagster-graphql = []
 dagster-postgres = []
->>>>>>> b1aa578 (week 1 project completed)
 defusedxml = []
 deprecated = []
 docker = []
@@ -2078,15 +1927,6 @@ greenlet = []
 grpcio = []
 grpcio-health-checking = []
 h11 = []
-<<<<<<< HEAD
-hologram = []
-httptools = []
-humanfriendly = []
-idna = []
-importlib-metadata = []
-iniconfig = []
-isodate = []
-=======
 httptools = []
 humanfriendly = []
 idna = [
@@ -2099,7 +1939,6 @@ iniconfig = [
     {file = "iniconfig-1.1.1-py2.py3-none-any.whl", hash = "sha256:011e24c64b7f47f6ebd835bb12a743f2fbe9a26d4cecaa7f53bc4f35ee9da8b3"},
     {file = "iniconfig-1.1.1.tar.gz", hash = "sha256:bc3af051d7d14b2ee5ef9969666def0cd1a000e121eaea580d4a313df4b37f32"},
 ]
->>>>>>> b1aa578 (week 1 project completed)
 isort = []
 jinja2 = []
 jmespath = []
@@ -2107,87 +1946,17 @@ jsonschema = []
 jupyter-client = []
 jupyter-core = []
 jupyterlab-pygments = []
-<<<<<<< HEAD
-leather = []
-logbook = []
-mako = []
-markupsafe = []
-mashumaro = []
-mccabe = []
-minimal-snowplow-tracker = []
-mistune = []
-msgpack = []
-=======
 lxml = []
 mako = []
 markupsafe = []
 mccabe = []
 mistune = []
->>>>>>> b1aa578 (week 1 project completed)
 mypy = []
 mypy-extensions = []
 nbclient = []
 nbconvert = []
 nbformat = []
 nest-asyncio = []
-<<<<<<< HEAD
-networkx = []
-numpy = []
-packaging = []
-pandas = []
-pandocfilters = []
-parsedatetime = []
-pathspec = []
-pendulum = []
-pep562 = []
-platformdirs = []
-pluggy = []
-promise = []
-protobuf = []
-psutil = []
-psycopg2-binary = []
-py = []
-pycodestyle = []
-pycparser = []
-pydantic = []
-pyflakes = []
-pygments = []
-pyparsing = []
-pyreadline3 = []
-pyrsistent = []
-pytest = []
-pytest-cov = []
-python-dateutil = []
-python-dotenv = []
-python-editor = []
-python-slugify = []
-pytimeparse = []
-pytz = []
-pytzdata = []
-pywin32 = []
-pyyaml = []
-pyzmq = []
-redis = []
-regex = []
-requests = []
-rx = []
-s3transfer = []
-six = []
-sniffio = []
-soupsieve = []
-sqlalchemy = []
-sqlparse = []
-starlette = []
-tabulate = []
-testpath = []
-text-unidecode = []
-toml = []
-tomli = []
-toposort = []
-tornado = []
-tqdm = []
-traitlets = []
-=======
 packaging = [
     {file = "packaging-21.3-py3-none-any.whl", hash = "sha256:ef103e05f519cdc783ae24ea4e2e0f508a9c99b2d4969652eed6a2e1ea5bd522"},
     {file = "packaging-21.3.tar.gz", hash = "sha256:dd47c42927d89ab911e606518907cc2d3a1f38bbd026385970643f9c5b8ecfeb"},
@@ -2393,7 +2162,6 @@ tqdm = [
 traitlets = []
 typed-ast = []
 typer = []
->>>>>>> b1aa578 (week 1 project completed)
 typing-compat = []
 typing-extensions = []
 urllib3 = []
@@ -2401,16 +2169,9 @@ uvicorn = []
 uvloop = []
 watchdog = []
 watchfiles = []
-<<<<<<< HEAD
-webencodings = []
-websocket-client = []
-websockets = []
-werkzeug = []
-=======
 wcwidth = []
 webencodings = []
 websocket-client = []
 websockets = []
->>>>>>> b1aa578 (week 1 project completed)
 wrapt = []
 zipp = []
